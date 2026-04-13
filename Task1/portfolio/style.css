@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* light blue-gray */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    border-radius: 50%;
+}
+
+section {
+    margin: 20px;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.skills-list {
+    list-style-position: inside;
+    text-align: left;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.project-list{
+    list-style-position: inside;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
