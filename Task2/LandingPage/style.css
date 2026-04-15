@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f4f4f4;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+/* FEATURES */
+.features {
+    padding: 40px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background: #eee;
+    padding: 20px;
+    width: 250px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background: #ddd;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    width: 250px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-container,
+    .testimonial-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* HERO IMAGE */
+.hero-img {
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* TESTIMONIAL IMAGE */
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
