@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Job Application Form</h1>
+
+    <form id="form">
+
+        <!-- Personal Info -->
+        <h2>Personal Details</h2>
+
+        <input type="text" id="name" placeholder="Full Name">
+        <small class="error"></small>
+
+        <input type="email" id="email" placeholder="Email">
+        <small class="error"></small>
+
+        <input type="text" id="phone" placeholder="Phone Number">
+        <small class="error"></small>
+
+        <input type="date" id="dob">
+        <small class="error"></small>
+
+        <select id="gender">
+            <option value="">Select Gender</option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>Other</option>
+        </select>
+        <small class="error"></small>
+
+        <!-- Job Info -->
+        <h2>Job Details</h2>
+
+        <select id="position">
+            <option value="">Select Position</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Full Stack Developer</option>
+        </select>
+        <small class="error"></small>
+
+        <input type="number" id="experience" placeholder="Years of Experience">
+        <small class="error"></small>
+
+        <!-- Skills -->
+        <h2>Skills</h2>
+
+        <div class="skills">
+           <label><input type="checkbox" value="HTML"> HTML</label>
+           <label><input type="checkbox" value="CSS"> CSS</label>
+           <label><input type="checkbox" value="JavaScript"> JavaScript</label>
+           <label><input type="checkbox" value="Java"> Java</label>
+        </div>
+
+        <!-- Resume -->
+        <h2>Upload Resume</h2>
+        <input type="file" id="resume">
+        <small class="error"></small>
+
+        <!-- Message -->
+        <h2>Message</h2>
+        <textarea id="message" placeholder="Why should we hire you?"></textarea>
+        <small class="error"></small>
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
